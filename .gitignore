@@ -1,0 +1,79 @@
+# ---- Unreal Engine ----
+# Ignore intermediate build files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/*/
+!Build/*.Target.cs
+!Build/*.Build.cs
+!Build/*.Target.cs
+!Build/Android/
+!Build/IOS/
+!Build/Mac/
+!Build/Windows/
+
+# Ignore generated project files
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vscode/
+
+# Ignore local config files (keep shared defaults though)
+Config/Default*.ini
+!Config/
+!Config/Default*.*   # allow default configs
+*.ini~
+*.tmp
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore auto-generated content
+*.generated.h
+*.generated.cpp
+
+# Ignore compiled data
+*.pdb
+*.idb
+*.dll
+*.exe
+*.app
+*.dylib
+*.so
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+__MACOSX/
+*.plist
+
+# ---- Windows ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ---- General ----
+# Logs
+*.log
+
+# User-specific files
+*.user
+*.userprefs
+
+# Temporary
+*.swp
+*.swo
+*.bak
+
+# Ignore any local plugins or temp folders
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
